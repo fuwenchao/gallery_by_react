@@ -1,4 +1,5 @@
 /* Base Application Styles */
+/*
 body {
   color: #fff;
   background: #222;
@@ -19,3 +20,45 @@ body {
   border-width: 1px 0;
   background: #666;
 }
+*/
+
+html,body{
+	width:100%;
+	heigh:100%; 
+	background-color:#222;
+}
+.content{
+	width:100%;
+	heigh:100%; 
+}
+/*stage start*/
+.stage{
+	position:relative;
+	width:100%;
+	height:60%;
+}
+
+/*stage end*/
+
+
+/*image start*/
+.img-sec{
+	position :relative;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-color:#ddd;
+}
+/*image end*/
+
+/*controller start*/
+.controller-nav{
+	position:absolute;
+	left:0;
+	botton:30px;
+	z-index:101;
+	width:100%;
+	text-align:center; 
+	
+}
+/*controller end*/
